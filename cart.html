@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <section class=" cart">
+      <div class="container-fluid">
+        <div class="d-flex page_heading">
+          <div class="back_btn mb-4">
+            <a href="#"> <i class="fas fa-arrow-left"></i> </a>
+          </div>
+          <div>
+            <h4 class="text-capitalize m-0">your Cart</h4>
+            <p class="">3 Items</p>
+          </div>
+        </div>
+
+        <div class="cart_items">
+            <div class="item d-flex align-items-center">
+                <div class="item_img">
+                    <img src="imgs/avatar.webp" width="70" height="70" alt="">
+                </div>
+                <div class="item_details">
+                    <h5> Iphone 13 Mini </h5>
+                    <span> $650 </span>
+                </div>
+            </div>
+            <div class="item d-flex align-items-center">
+              <div class="item_img">
+                  <img src="imgs/avatar.webp" width="70" height="70" alt="">
+              </div>
+              <div class="item_details">
+                  <h5> Iphone 13 Mini </h5>
+                  <span> $650 </span>
+              </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="checkout_footer d-flex justify-content-between">
+        <div class="total_amount">
+          <div class="bill_icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-receipt" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff7643" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <path d="M5 21v-16a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v16l-3 -2l-2 2l-2 -2l-2 2l-2 -2l-3 2m4 -14h6m-6 4h6m-2 4h2" />
+            </svg>
+          </div>
+          <span>Total</span>
+          <p>$1000</p>
+        </div>
+        <a href="checkout.html" class="checkout"> Checkout </a>
+      </div>
+    </section>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
